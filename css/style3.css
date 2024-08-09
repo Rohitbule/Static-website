@@ -1,0 +1,22 @@
+.back-to-top {
+    display: none; /* hide the button by default */
+    position: fixed; /* make the button fixed on the screen */
+    bottom: 20px; /* position the button 20px from the bottom */
+    right: 20px; /* position the button 20px from the right */
+    z-index: 99; /* make the button appear on top of other elements */
+    font-size: 16px; /* set the font size of the button */
+    padding: 10px; /* add some padding to the button */
+    border: none; /* remove the border */
+    background-color: #f79706; /* set the background color of the button */
+    color: #000000; /* set the text color of the button */
+    cursor: pointer; /* set the cursor to a pointer */
+    opacity: 70%;
+    border-radius: 20px;
+  }
+  
+  .back-to-top:hover {
+    background-color: #ffffff; /* change the background color on hover */
+  }
+  .about{
+    margin-left: 100px;
+}

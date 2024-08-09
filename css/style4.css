@@ -1,0 +1,31 @@
+body {
+    background-color: #d8d8d8;
+}
+h1 {
+  text-align: center;
+}
+.ftrSocial ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.ftrSocial ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.ftrSocial ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.ftrSocial ul li .fa:hover{
+    color:#ffffff;
+}
+.ftrSocial ul li a{
+    position:relative;
+}

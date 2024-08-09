@@ -1,0 +1,20 @@
+
+    $('#testimonial').owlCarousel({
+      loop:true,
+      margin:20,
+      responsiveClass:true,
+      nav:true,
+      autoplay:true,
+      smartspeed:500,
+      responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:3,
+            }
+        }
+    })
